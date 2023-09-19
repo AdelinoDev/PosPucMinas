@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 02 - Formulário</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Quiz sobre Sistema Solar</h1>
+        </header>
+        <section>
+            
+            <h1>Pergunta 1:</h1>
+
+            <p>Quantos planetas exiteem no Sistemas Solar?</p>
+
+            <form action="">
+                <input type="radio" name="valor" value="7">7
+                <input type="radio" name="valor" value="8">8
+                <input type="radio" name="valor" value="9">9
+
+                <button type="submit"> Enviar </button>
+            </form>          
+        </section>
+
+        <section>
+            <h2>Pergunta 2:</h2>
+            <p>Quais destes são planetas gasosos? Selecione as opçõe corretas.</p>
+
+            <form action="">
+                <input type="checkbox" name="planetas" value="marte"> Marte 
+                <input type="checkbox" name="planetas" value="jupiter"> Júpiter 
+                <input type="checkbox" name="planetas" value="venus"> Vênus 
+
+                <button type="submit"> Enviar</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Pergunta 3</h2>
+            <p>Qual é a maior lua de Saturno?</p>
+
+            <form action="">
+                <input list="lua" name="lua">
+
+                <datalist id="lua">
+                    <option value="Titã"> Titã </option>
+                    <option value="Encelado"> Encelado </option>
+                    <option value="Mimas"> Mimas </option>
+                    <option value="Dione"> Dione </option>
+                    <option value="Jápeto"> Jápeto </option>
+                </datalist>
+                <button type="submit"> Enviar </button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Pergunta 4</h2>
+            <p>Em que ano a sonda Voyager 2 foi lançada para explorar os planetas do Sistema Solar?</p>
+
+            <form action="">
+                <input type="range" name="sonda" min="0" max="100" step="0.1">
+                <button type="submit"> Enviar </button>
+            </form>         
+        </section>
+    </main>
+
+    <footer>&copy 2023 Sistema Solar</footer>
+</body>
+</html>
