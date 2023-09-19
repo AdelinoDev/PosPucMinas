@@ -16,11 +16,17 @@
 
             <p>Quantos planetas exiteem no Sistemas Solar?</p>
 
-            <form action="">
-                <input type="radio" name="valor" value="7">7
-                <input type="radio" name="valor" value="8">8
-                <input type="radio" name="valor" value="9">9
-
+            <form action="" method="get">
+                <label for="">
+                    <input type="radio" name="pergunta1" value="7">7
+                </label>
+                <label for="">
+                    <input type="radio" name="pergunta1" value="8">8
+                </label>
+                <label for="">
+                    <input type="radio" name="pergunta1" value="9">9
+                </label>
+                
                 <button type="submit"> Enviar </button>
             </form>          
         </section>
@@ -29,11 +35,17 @@
             <h2>Pergunta 2:</h2>
             <p>Quais destes são planetas gasosos? Selecione as opçõe corretas.</p>
 
-            <form action="">
-                <input type="checkbox" name="planetas" value="marte"> Marte 
-                <input type="checkbox" name="planetas" value="jupiter"> Júpiter 
-                <input type="checkbox" name="planetas" value="venus"> Vênus 
-
+            <form action="" method="get">
+                <label for="">
+                    <input type="checkbox" name="pergunta2" value="marte"> Marte
+                </label>
+                 <label for="">
+                    <input type="checkbox" name="pergunta2" value="jupiter"> Júpiter
+                 </label>
+                <label for="">
+                    <input type="checkbox" name="pergunta2" value="venus"> Vênus
+                </label>
+                 
                 <button type="submit"> Enviar</button>
             </form>
         </section>
@@ -42,17 +54,18 @@
             <h2>Pergunta 3</h2>
             <p>Qual é a maior lua de Saturno?</p>
 
-            <form action="">
-                <input list="lua" name="lua">
+            <form action="" method="get">
 
-                <datalist id="lua">
+                <select name="pergunta3">
                     <option value="Titã"> Titã </option>
                     <option value="Encelado"> Encelado </option>
                     <option value="Mimas"> Mimas </option>
                     <option value="Dione"> Dione </option>
                     <option value="Jápeto"> Jápeto </option>
-                </datalist>
+                </select>
+
                 <button type="submit"> Enviar </button>
+                
             </form>
         </section>
 
@@ -60,8 +73,11 @@
             <h2>Pergunta 4</h2>
             <p>Em que ano a sonda Voyager 2 foi lançada para explorar os planetas do Sistema Solar?</p>
 
-            <form action="">
-                <input type="range" name="sonda" min="0" max="100" step="0.1">
+            <form action="" method="get">
+                <label for="">
+                    <input type="range" name="pergunta4" min="1960" max="1980" step="1">
+                </label>
+                
                 <button type="submit"> Enviar </button>
             </form>         
         </section>
