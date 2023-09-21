@@ -1,0 +1,121 @@
+/* Importe uma fonte do Google Fonts (por exemplo, "Nunito") */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #530d3c;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-family: Arial Narrow, sans-serif;
+  font-size: 2.5rem;
+  transition: background-color 0.3s ease;
+}
+
+header:hover {
+  background-color: #803e67;
+}
+
+section {
+  background-color: #ccd5df;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  transition: transform 0.2s ease;
+  color: #1f3d58;
+  text-align: center;
+}
+
+section:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+form {
+  margin-top: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 18px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-family: "Nunito", sans-serif;
+  transition: border-color 0.3s ease;
+}
+
+select:hover {
+  border-color: #007bff;
+}
+
+button[type="submit"] {
+  background-color: #9e2576;
+  color: #000000;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #5f396b;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin-top: 10px;
+}
+
+output {
+  display: block;
+  margin-top: 10px;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  color: #333;
+}
+
+footer {
+  background-color: #530d3c;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  font-family: Arial Narrow, sans-serif;
+  font-size: 16px;
+}
+
+.espaco {
+    margin-top: 24px;
+}
