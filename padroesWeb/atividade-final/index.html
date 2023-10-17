@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js" defer></script>
+
+    <title>App - Geolocalização</title>
+
+    <!-- Google Fonts - Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Open+Sans:wght@300;500;700&family=Roboto:wght@300;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <div class="caixa-maior">
+      <input
+        class="input-cidade"
+        type="text"
+        placeholder="Digite o nome da cidade ..."
+      />
+
+      <button class="botao-busca" onclick="cliqueiNoBotao()">
+        <img
+          class="img-busca"
+          src="https://www.svgrepo.com/show/488200/find.svg"
+          alt="icone de busca"
+        />
+      </button>
+
+      <div class="caixa-media">
+
+            <h2 class="cidade"></h2>
+
+            <p class="temperatura"></p>
+
+            <div class="caixa-menor">
+                <img class="img-previsao"
+                    src=""
+                    alt=""
+                />
+                <p class="texto-previsao"></p>
+            </div>
+
+            <p class="umidade"></p>
+
+      </div>
+    </div>
+  </body>
+</html>
